@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #93E1D8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    height: .8vh;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column  ;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    height: 60vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+.box {
+    height: 16vmin;
+    width: 16vmin;
+    border: none;
+    font-size: 10vmin;
+    background-color: #ddfff7;
+    color: black;
+    cursor: pointer;
+    border-radius: 1vh;
+}
+
+.winnerCt {
+    height: 40px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+    font-size: 1.5rem;
+}
+
+
+.button {
+    /* margin-top: 50px; */
+    margin-top: 2vh;
+    width:30vh;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 1vh;
+}
+
+
+@media (max-width: 440px) {
+    .container{
+        width: 100vw;
+        height: 50vh;
+    }
+    .button{
+        width: 25vh;
+        font-size: 1.2rem;
+    }
+}
+
