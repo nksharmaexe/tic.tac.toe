@@ -64,7 +64,7 @@ const anableBoxes = ()=>{
 
 const vibrate = ()=>{
     if(navigator){
-        navigator.vibrate(2000);
+        navigator.vibrate(500);
     }
 }
 
